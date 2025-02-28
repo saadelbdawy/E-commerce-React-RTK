@@ -1,0 +1,694 @@
+.maincont{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.blackbanner{
+   
+    color: white;
+    width: 100%;
+background-color: black;
+
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.signp{
+    text-decoration: underline;
+    color: white;
+}
+.signp :active {
+    color: white;
+}
+.signp :visited {
+    color: white;
+}
+@media (max-width:375px){
+
+    .signup{
+        font-size: 12px
+    }
+}
+
+.navbar1{
+width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 130px;
+}
+
+
+@media (max-width:1000px){
+    .navbar1{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:375px){
+    .navbar1{
+        margin-left: 30px;
+    }
+}
+
+
+.innerlist{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+.innerlist p{
+    white-space: nowrap;
+}
+
+@media(max-width:770px){
+    .innerlist{
+        display: none;
+    }
+}
+
+
+
+
+
+.searchh{
+
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.searchbx{
+width: 70%;
+height: 50px;
+border-radius: 20px;
+padding-left: 15px;
+background-color: rgba(240, 240, 240, 1);
+}
+
+
+
+
+
+
+.navicons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.addtocart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+   
+    background-color: white;
+    border: white;
+}
+.profilepic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+   
+    background-color: white;
+    border: white;
+}
+.searchicon{
+    display: none;
+}
+
+@media(max-width:1000px){
+    .searchbx{
+        display: none;}}
+
+
+
+@media(max-width:1000px){
+    .searchicon{
+        width: 30px;
+        height: 30px;
+        display: block;
+        background-color: white;
+        border: white;
+       
+    }
+}
+.vertix{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+.firstsection{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+    background-color: rgba(240, 240, 240, 1);
+    
+}
+@media (max-width:750px){
+    .firstsection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+.hero{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.hero h1{
+    font-size: 50px;
+    
+
+}
+
+.hero1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.heroimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 20px;
+}
+
+.cater p{
+    white-space: nowrap;
+    font-size: 12px;
+    
+}
+.shopnowbutton{
+    width: 100%;
+}
+
+.shopbutton{
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 750px){
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .shopnowbutton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }}
+   
+
+
+
+
+
+
+.a200{
+
+    display: flex;
+    gap:20px
+}
+.versace{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+}
+.versace h1{
+    color:white;
+}
+@media (max-width:750px){
+    .versace{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 150px;
+        
+        grid-template-rows: auto auto ;       
+        
+    }
+.versace :nth-child(5){
+    grid-column: span 2;
+    margin-left: 90px;
+}
+}
+
+    
+    @media(max-width:750px){
+        .versace h1{
+            font-size: 25px;
+            white-space: nowrap
+        }
+        .viewwww{
+            margin-top: 0px;
+        }
+    }
+   
+@media(max-width:930px){
+    .hero h1{
+        font-size: 35px;
+    }
+    .heroimage img{
+        width: 330px;
+        height:350px;
+    }
+}
+@media(max-width:375px){
+    .cater p{
+        white-space: pre-wrap;
+    }
+}
+@media(max-width:375px){
+    *{
+        overflow-x: hidden;
+    }
+    .versace{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .shopco h1{
+        font-size: 15px;
+    }
+    .navicons{
+        margin-left: 105px;
+    }
+}
+.viewwww{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.ratingstar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.star{
+    width: 30px;
+    height: 30px;
+  background-color: white;
+    border: white;
+  
+}
+
+.innergrid{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.innergrid img {
+    border-radius: 20px;
+    width: 240px;
+    height: 250px;
+
+
+}
+.finalimage{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productcard{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+
+
+
+.browse{
+    margin-top: 30px;
+    padding: 40px;
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: 20px;
+}
+
+.innerbrowse1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.innerbrowse2{
+    display: flex;
+    gap: 10px;
+
+}
+
+.browse img{
+    border-radius: 20px;
+}
+
+
+
+.customerinner{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.firstcustomer{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80%;
+    outline: solid grey 1px;
+    
+}
+.firstcustomer1{
+
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80%;
+    outline: solid grey 1px;
+}
+.firstcustomer1 p{
+    font-size: 12px;
+}
+@media (max-width:750px){
+    .customerinner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .firstcustomer1{
+        display: none;
+        border: 0px;
+        outline: 0px;
+    }
+}
+.ourhappy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstcustomer p {
+    font-size: 12px;
+}
+.stayup{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+.stayh1 h1 {
+    color: white;
+    padding-left: 10px;
+}
+
+.inputt{
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsl{
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 45px;
+}
+
+.supsc{
+
+    
+    background-color: white;
+    height: 30px;
+    border-radius: 20px;
+}
+.vooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+
+}
+@media(max-width:1000px){
+    .vooter{
+        display: none;
+    }
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2px;
+    margin-top: 30px;
+}
+.socialmediaicons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.foooter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 700px;
+    padding-bottom: 50px;
+    
+}
+@media(max-width:1000px){
+    .foooter{
+        gap: 50px;
+    }
+}
+
+
+.mastercard{
+    display: flex;
+    gap: 4px;
+}
+
+.finalcontact{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.finalcontact p{
+font-size: 12px;
+}
+
+
+.company{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.company p
+{
+    font-size: 13px;
+}
+
+.help{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.help p{
+
+    font-size: 13px;
+}
+
+
+
+
+.faq{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq p{
+    font-size: 13px;
+}
+.resources{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.resources p{
+    font-size: 13px;
+}
+.foooter p{
+    font-size: 12px;
+    white-space: nowrap;
+}
+@media(max-width:930px){
+    .productcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.finalimage{
+    display: none;
+}
+}
+@media(max-width:750px){
+    .stayup{
+        gap: 8%;
+    }
+}
+@media(max-width:375px){
+    .stayup h1 {
+        font-size: 15px;
+        
+    }
+    .inputt{
+        gap: 3px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .newsl{
+        font-size: 8px;
+        padding-left: 5px;
+        height: 20px;
+       
+    }
+    .supsc{
+        font-size: 8px;
+        height: 25px;
+    }
+    .inputt{
+        gap: 5px;
+    }
+    .productcard{
+        gap: 10px;
+    }
+    .viewwww{
+        margin-top: 0px;
+    }
+
+    .cater p {
+        margin-left: 20px;
+    }
+    
+    }
+@media(max-width:600px){
+    .productcard{
+        gap: 10px;
+    }
+    
+}
+@media(max-width:375px){
+    .ourhappy{
+       margin-left: 80px;
+    }
+    .versace h1 {
+        margin-left: 15px;
+    }
+    .productcard img {
+        width: 150px;
+        height: 150px;
+    }
+    .innergrid h3 {
+        font-size: 15px;
+    }
+    .productcard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
+@media(max-width:1000px){
+    .viewwww{
+        margin-top: 0px;
+    }
+
+}

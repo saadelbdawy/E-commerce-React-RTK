@@ -1,0 +1,84 @@
+/* src/components/navbar.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow under the navbar */
+}
+
+.cart-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon {
+  font-size: 30px;
+}
+.home-icon{
+  margin-right: 20px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  border-radius: 5px;
+  z-index: 10;
+  max-height: 300px; /* Limit height of the cart dropdown */
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.cart-items-container {
+  max-height: 300px; /* Set a max height for cart items list */
+  overflow-y: auto; /* Add vertical scroll if items exceed the height */
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.clear-cart-btn,
+.checkout-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear-cart-btn:hover,
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
+
+.empty-cart {
+  font-size: 16px;
+  color: #888;
+}
